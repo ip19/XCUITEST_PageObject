@@ -11,8 +11,9 @@ import XCTest
 
 class NewScreen: BaseScreen {
     
-    //MARK: ELEMENT SELECTORS:
     
+    //MARK: ELEMENT SELECTORS:
+
     var newTab: XCUIElement {
         return app.tables.buttons["New"]
     }
