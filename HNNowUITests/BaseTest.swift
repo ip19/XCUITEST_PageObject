@@ -14,6 +14,8 @@ class BaseTest: XCTestCase {
     
     //what is this and I have created it?
     let newScreen = NewScreen()
+    let bestScreen = BestScreen()
+    let topScreen = TopScreen()
     
     override func setUp() {
         continueAfterFailure = false
